@@ -1,0 +1,66 @@
+
+nav {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+
+nav > ul {
+  list-style-type: none;
+  border: 2px solid black;
+  height: 40px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nology {
+  height: 44px;
+  width: 150px;
+  margin-left: 0;
+  background-color: green;
+  color: white;
+  justify-content: flex-start;
+}
+
+nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  color: coral;
+  text-decoration: underline;
+}
+
+#panel-1 {
+  padding: 20px;
+  border: solid 2px black;
+  width: 850px;
+}
+
+#panel-2 {
+  padding: 20px;
+  border: solid 2px black;
+  width: 850px;
+}
+
+#panel-3 {
+  padding: 20px;
+  border: solid 2px black;
+  width: 850px;
+}
+
+#panel-right {
+  padding: 20px;
+  border: solid 2px black;
+  width: 650px;
+  flex-wrap: wrap;
+}
+
+#all-panels {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
