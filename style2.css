@@ -65,3 +65,63 @@ nav > ul > li > a:hover {
   display: flex;
   justify-content: space-between;
 }
+
+.container__box{
+  display: flex;
+  border-radius: 2px;
+  padding: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+.box-sets {
+  display: flex;
+}
+
+#box-set-1 {
+  justify-content: space-around;
+}
+
+#box-set-2 {
+  justify-content: end;
+}
+
+#box-set-3 {
+  justify-content: start;
+}
+
+#box-one{
+  background-color: #E0145C;
+}
+
+#box-two{
+  background-color: #9E1DB5;
+}
+
+#box-three {
+  background-color: #6F3CE9;
+}
+
+#box-four{
+  background-color: #3979E8;
+}
+
+#box-five{
+  background-color: #01BCD7;
+}
+
+#box-six{
+  background-color: #7BB13A;
+}
+
+#box-seven{
+  background-color: #B8C91D;
+}
+
+#box-eight{
+  background-color: #E6D519;
+}
+
+#box-nine{
+  background-color: #E5AE02;
+}
