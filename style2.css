@@ -70,6 +70,7 @@ nav > ul > li > a:hover {
   display: flex;
   border-radius: 2px;
   padding: 5px;
+  margin: 5px;
   height: 60px;
   width: 60px;
 }
